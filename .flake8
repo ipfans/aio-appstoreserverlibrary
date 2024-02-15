@@ -1,0 +1,3 @@
+[flake8]
+exclude = .git,__pycache__,.venv,venv,env,build,dist,docs,*.egg-info,.pytest_cache,.vscode,.mypycache,.idea,.github,locales,requirements
+max-line-length = 160

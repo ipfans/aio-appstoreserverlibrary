@@ -1,0 +1,22 @@
+[project]
+name = "aio-appstoreserverlibrary"
+version = "0.1.0"
+description = "app-store-server-library-python asyncio API client, based on official version."
+authors = [
+    {name = "Kevin Lee", email = "363344+ipfans@users.noreply.github.com"},
+]
+dependencies = [
+    "app-store-server-library>=1.0.0",
+    "httpx>=0.26.0",
+]
+requires-python = ">=3.8,<4"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
